@@ -9,6 +9,9 @@ venv/
 .env
 .env.*
 .pytest_cache/
+*.egg
+.coverage
+htmlcov/
 
 # Node.js / JavaScript
 node_modules/

@@ -7,9 +7,9 @@ setup(
     description="A tiny, zero-dependency Python library for generating and converting UUIDs to Base58-encoded strings",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Your Name",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/base58uuid",
+    author="Yoshitake Hatada",
+    author_email="yhatada@gingdang.co.jp",
+    url="https://github.com/htpboost/base58uuid",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
