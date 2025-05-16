@@ -1,42 +1,39 @@
 # Base58UUID
 
-Base58UUIDは、UUIDをBase58エンコードされた文字列に変換するPythonライブラリです。
+UUIDをBase58エンコード/デコードするマルチ言語ライブラリです。短く、URLセーフな文字列としてUUIDを表現できます。
+
+## 対応言語
+
+- [JavaScript版](javascript/README.md)
+- [PHP版](php/README.md)
+- [Python版](python/README.md)
 
 ## 特徴
 
-- UUIDをBase58エンコードされた文字列に変換
-- Base58エンコードされた文字列をUUIDに戻す
-- シンプルで使いやすいAPI
+- 🚀 短く、URLセーフな識別子を生成
+- 🔄 UUIDとBase58の双方向変換
+- 💪 複数の言語で実装
+- 🛡️ 堅牢なエラーハンドリング
+- ✅ 包括的なテストカバレッジ
 
-## インストール
+## なぜBase58UUIDなのか？
 
-```bash
-pip install base58uuid
-```
+標準のUUIDは36文字（ハイフンを含む）の長さがあり、URLやスペースが限られている場合に扱いにくいことがあります。Base58エンコードにより、一意性を保ちながらURLセーフな文字のみを使用して、より短い文字列に変換できます。
 
-## 使用方法
-
-```python
-from base58uuid import Base58UUID
-
-# UUIDをBase58エンコード
-uuid_obj = Base58UUID()
-encoded = uuid_obj.encode()  # 新しいUUIDを生成してBase58エンコード
-print(encoded)  # 例: "2NEpo7TZRRrLZSi2U"
-
-# Base58エンコードされた文字列をUUIDに戻す
-decoded = uuid_obj.decode(encoded)
-print(decoded)  # 元のUUID
-```
+このライブラリで使用されるBase58アルファベットはBitcoinと同じもので、視覚的な曖昧さや混乱を防ぐために似たような見た目の文字（0、O、I、l）を除外しています。
 
 ## ライセンス
 
-MIT License
-
-## 開発者
-
-Yoshitake Hatada
+MITライセンスの下で公開されています。詳細は[LICENSE](LICENSE)ファイルを参照してください。
 
 ## 貢献
 
-プルリクエストやイシューの報告は大歓迎です！ 
+1. このリポジトリをフォーク
+2. 新しいブランチを作成 (`git checkout -b feature/amazing-feature`)
+3. 変更をコミット (`git commit -m 'Add some amazing feature'`)
+4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
+5. プルリクエストを作成
+
+## 作者
+
+- Yoshitake Hatada (@htpboost) 

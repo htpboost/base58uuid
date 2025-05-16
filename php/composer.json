@@ -1,0 +1,23 @@
+{
+    "name": "htpboost/base58uuid",
+    "description": "UUIDをBase58エンコード/デコードするPHPライブラリ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoshitake Hatada",
+            "email": "yhatada3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Htpboost\\Base58UUID\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+} 
