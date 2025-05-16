@@ -35,7 +35,7 @@ MIT License
 
 ## 開発者
 
-[あなたの名前]
+Yoshitake Hatada
 
 ## 貢献
 
